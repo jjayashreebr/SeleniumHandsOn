@@ -10,8 +10,8 @@ public class BaseDriver {
 
 	static {
 		String driverpath = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", driverpath+"/src/main/resources/chromedriver.exe");
-		System.setProperty("webdriver.edge.driver", driverpath+"/src/main/resources/msedgedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", driverpath+"/src/main/resources/chromedriver.exe");
+		//System.setProperty("webdriver.edge.driver", driverpath+"/src/main/resources/msedgedriver.exe");
 	}
 
 	public static WebDriver getWebDriver(String browser) {

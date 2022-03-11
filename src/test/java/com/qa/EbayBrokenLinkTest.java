@@ -27,7 +27,7 @@ public class EbayBrokenLinkTest {
 	String driverpath = System.getProperty("user.dir");
 	@BeforeMethod
 	public void setUp() {
-        System.setProperty("webdriver.chrome.driver", driverpath+"/src/main/resources/chromedriver.exe");
+       // System.setProperty("webdriver.chrome.driver", driverpath+"/src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
 		driver = new ChromeDriver(options);

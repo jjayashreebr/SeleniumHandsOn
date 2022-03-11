@@ -19,7 +19,7 @@ public class BrowserStackSignUpTest {
 	@BeforeClass
 	public void testSetup() {
 		String path = System.getProperty("user.dir") + "/src/main/resources/chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", path);
+		//System.setProperty("webdriver.chrome.driver", path);
 
 		  ChromeOptions options = new ChromeOptions();
 		  options.setAcceptInsecureCerts(true);
