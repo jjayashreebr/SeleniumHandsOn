@@ -12,14 +12,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import base.BaseDriver;
+import util.BaseDriver;
 import util.ExcelHelper;
 
 public class ToolSqaAutomation extends BaseDriver {
 
 	public static void main(String[] args)  {
 		
-		String driverpath = System.getProperty("user.dir") + "/msedgedriver.exe";
+		String driverpath = System.getProperty("user.dir") + "/src/main/resources/msedgedriver.exe";
 		System.setProperty("webdriver.edge.driver", driverpath);
 		
 		Map<Integer, HashMap<String, Object>> stuInfo = null;
